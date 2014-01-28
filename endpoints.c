@@ -4,8 +4,9 @@
 
 static char light = '0';
 
-const uint16_t rsplen = 1500;
-static char rsp[64] = "";
+#define RSP_BUFFER_SIZE 64 
+const uint16_t rsplen = RSP_BUFFER_SIZE;
+static char rsp[RSP_BUFFER_SIZE] = "";
 void build_rsp(void);
 
 #ifdef ARDUINO
