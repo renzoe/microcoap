@@ -5,6 +5,7 @@
 extern "C" {
 #endif
 
+#define ARDUINO 1
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
